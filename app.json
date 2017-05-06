@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/book/book",
+    "pages/movie/movie",
+    "pages/mine/mine",
+    "pages/index/index",  
+    "pages/music/music",
+    "pages/booklist/booklist",
+    "pages/bookdetail/bookdetail",
+    "pages/moviedetail/moviedetail"
+    
+  ],
+ 
+  "window":{
+    "backgroundTextStyle":"black",
+    "navigationBarBackgroundColor": "#EF9B6C",
+    "navigationBarTitleText": "Detail",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color":"#EF9B6C",
+    "selectedColor": "#707070",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"./icon/home.png",
+      "selectedIconPath":"./icon/home1.png"
+    },{
+      "pagePath": "pages/music/music",
+      "text": "音乐",
+      "iconPath":"./icon/music.png",
+      "selectedIconPath":"./icon/music1.png"
+    },{
+      "pagePath": "pages/book/book",
+      "text": "书籍",
+      "iconPath":"./icon/book.png",
+      "selectedIconPath":"./icon/book1.png"
+    },{
+      "pagePath": "pages/movie/movie",
+      "text": "电影",
+      "iconPath":"./icon/movie.png",
+      "selectedIconPath":"./icon/movie1.png"
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath":"./icon/log.png",
+      "selectedIconPath":"./icon/log1.png"
+    }]
+  }
+}

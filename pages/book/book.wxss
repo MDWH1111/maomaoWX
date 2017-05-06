@@ -1,0 +1,29 @@
+.book{
+    font-family:"微软雅黑"; 
+    background-image: url(http://www.maodan.online/music/book.jpg);
+    background-size: 100% 100%;
+    padding-top:120rpx;
+}
+.search{
+    text-align: center;
+    overflow: hidden;
+
+    margin:0 auto;
+}
+.searchbook{
+    display: block;
+    margin:0 auto;
+    border: 1px solid #000;
+    width:500rpx;
+    height:25px;
+    text-align: left;
+    padding-left:10px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.tip{
+    clear:both;
+    display: block;
+    padding:0 30px;
+    margin-top:30px;
+}

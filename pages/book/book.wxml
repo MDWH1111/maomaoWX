@@ -1,0 +1,9 @@
+<view class="book" style="height:{{Height}}px">
+    <view class="search">
+        <image src="../../icon/searchbook.png" style="height:50px;width:50px;"></image>
+        <input type="text" bindconfirm="gotolist" class="searchbook" placeholder="搜搜看吧..."/>
+    </view>
+    <view class="tip">
+        <image src="../../icon/words.png" style="height:200rpx;"></image>
+    </view>
+</view>

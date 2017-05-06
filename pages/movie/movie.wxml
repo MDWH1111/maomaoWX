@@ -1,0 +1,33 @@
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" indicator-color="rgba(255, 255, 255, .6)" indicator-active-color="rgba(239, 155, 108, 1)">
+  <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+    <swiper-item>
+      <image src="{{item}}"/>
+    </swiper-item>
+  </block>
+</swiper>
+<scroll-view scroll-y="true" style="height:{{scrollTop}}px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+  <view class="movieList" wx:for="{{movielist}}" wx:key="{{index}}">
+      <view class="singlemovie" data-vid="{{item.id}}" data-vname="{{item.name}}" bindtap="gotoDetail">
+        <image src="{{item.imgSrc}}"></image>
+        <view class="title">❤{{item.name}}</view>
+        <view class="actor">{{item.actor}}</view>
+      </view>
+  </view>
+</scroll-view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<navigator url="../music/music" open-type="switchTab">跳转到music</navigator>-->
