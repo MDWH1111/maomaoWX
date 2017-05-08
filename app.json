@@ -1,16 +1,15 @@
 {
   "pages":[
+    "pages/index/index",
     "pages/book/book",
     "pages/movie/movie",
     "pages/mine/mine",
-    "pages/index/index",  
     "pages/music/music",
     "pages/booklist/booklist",
     "pages/bookdetail/bookdetail",
     "pages/moviedetail/moviedetail"
     
   ],
- 
   "window":{
     "backgroundTextStyle":"black",
     "navigationBarBackgroundColor": "#EF9B6C",
@@ -18,9 +17,9 @@
     "navigationBarTextStyle":"#fff"
   },
   "tabBar": {
-    "color":"#EF9B6C",
-    "selectedColor": "#707070",
-    "backgroundColor": "#fff",
+    "color":"#707070",
+    "selectedColor": "#fff",
+    "backgroundColor": "#ef9b6c",
     "borderStyle": "black",
     "list": [{
       "pagePath": "pages/index/index",

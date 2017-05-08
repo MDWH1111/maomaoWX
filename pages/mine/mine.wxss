@@ -1,8 +1,19 @@
-.log-list {
-  display: flex;
-  flex-direction: column;
-  padding: 40rpx;
+/* pages/mine/mine.wxss */
+@import '../../style/weui.wxss';
+page{
+    background: #f4f4f4;
 }
-.log-item {
-  margin: 10rpx;
+.weui-media-box{
+    margin-top: 14px;
+    background: white;
+    height: 60px;
+    padding: 5px;
+}
+.weui-cell__bd{
+    color: #000;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.weui-cell__ft{
+    font-size: 12px;
 }

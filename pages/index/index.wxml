@@ -2,17 +2,8 @@
 <view class="container">
   <view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">hello！maomao</text>
-     <text class="userinfo-nickname">hello！maomao</text>
+    <view class="userinfo-nickname">Welcom to</view>
+    <view class="userinfo-nickname">MaoMao's</view>
+    <view class="userinfo-nickname">Entertainment Sapce</view>
   </view>
-  <view class="usermotto" bindtap="tap">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-<view class="section tc">
-  <video id="myVideo" src="http://www.maodan.online/liu/asd.mp4"    enable-danmu danmu-btn controls></video>
-  <view class="btn-area">
-    <input bindblur="bindInputBlur"/>
-    <button bindtap="bindSendDanmu">发送弹幕</button>
-  </view>
-</view>
 </view>

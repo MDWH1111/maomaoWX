@@ -1,13 +1,50 @@
-<canvas style="width: 300px; height: 200px;" canvas-id="firstCanvas" disable-scroll="{{false}}"></canvas>
-
-
-
-
-<view class="section tc">
-  <video id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"  enable-danmu danmu-btn controls></video>
-  <view class="btn-area">
-    <button bindtap="bindButtonTap">获取视频</button>
-    <input bindblur="bindInputBlur"/>
-    <button bindtap="bindSendDanmu">发送弹幕</button>
+<view class="page">
+  <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+      <image class="weui-media-box__thumb" src="{{info.avatarUrl}}" />
+    </view>
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class="weui-media-box__title">{{info.nickName}}</view>
+      <view class="weui-media-box__desc">微信号:MDv587</view>
+    </view>
+  </navigator>
+  <view class="weui-cells__title"></view>
+  <view class="weui-cells weui-cells_after-title">
+    <navigator url="../music/music" class="weui-cell" hover-class="navigator-hover" open-type="switchTab">
+      <view class="weui-cell__hd">
+        <image src="/icon/music5.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">音乐</view>
+      <view class="weui-cell__ft">My music</view>
+    </navigator>
+    <navigator url="../book/book" class="weui-cell" hover-class="navigator-hover" open-type="switchTab">
+      <view class="weui-cell__hd">
+        <image src="/icon/book5.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">书籍</view>
+      <view class="weui-cell__ft">My book</view>
+    </navigator>
+    <navigator url="../movie/movie" class="weui-cell" hover-class="navigator-hover" open-type="switchTab">
+      <view class="weui-cell__hd">
+        <image src="/icon/zhibo.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">电影</view>
+      <view class="weui-cell__ft">My movie</view>
+    </navigator>
+  </view>
+  <view class="weui-cells__title"></view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell" bindtap="saoyisao">
+      <view class="weui-cell__hd">
+        <image src="/icon/code.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">扫一扫</view>
+    </view>
+    <view class="weui-cell" bindtap="location">
+      <view class="weui-cell__hd">
+        <image src="/icon/map.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">地图</view>
+    </view>
   </view>
 </view>
