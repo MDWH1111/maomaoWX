@@ -15,6 +15,20 @@
  
 ### 话不多说，直接上图吧
 
+![请输入图片描述][2]
+
+  [2]: http://www.maodan.online/wximg/13.bmp
+![请输入图片描述][3]
+
+  [3]: http://www.maodan.online/wximg/14.bmp
+  
+![请输入图片描述][4]
+
+  [4]: http://www.maodan.online/wximg/15.bmp
+![请输入图片描述][5]
+
+  [5]: http://www.maodan.online/wximg/16.bmp
+  
 
 >技术应用：
 >微信小程序自带的api:
